@@ -39,8 +39,10 @@ add a list of shoe and a cancel button to navigate back to shoe list fragment
 - All click listeners are connected via the DataBindingUtil class and uses the NavController to navigate to the next screen.
 - This menu will appear only on the Shoe Listing screen and will return the user to the login screen
 
-## Project Screenshots
-- [LoginScreen]()
-- [WelcomeScreen]()
-- [MainScreen]()
-- [DetailScreen]()
+### Screenshots
+
+![Screenshot 1](screenshots/login.png)
+![Screenshot 2](screenshots/welcome.png)
+![Screenshot 3](screenshots/instructions.png)
+![Screenshot 4](screenshots/main.png)
+![Screenshot 5](screenshots/detail.png)
