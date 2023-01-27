@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Shoe Store</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login">Login</string>
+    <string name="sign_in">Sign In</string>
+    <string name="register">Register</string>
+    <string name="shoe_store">Shoe Store</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="ShoeList">shoelist</string>
+    <string name="add_new_shoe">Add New Shoe</string>
+    <string name="save">Save</string>
+    <string name="shoe_name">Shoe Name</string>
+    <string name="cancel">Cancel</string>
+    <string name="company_name">Company Name</string>
+    <string name="shoe_size">Shoe Size</string>
+    <string name="description">Description</string>
+    <string name="instructions">Instructions</string>
+    <string name="adding_a_new_shoe_n_t_t_press_the_plus_button_n_t_t_add_the_details_of_the_shoe_n_t_t_save_to_add_it_to_the_list_n_t_t_cancel_to_cancel_adding_the_shoe_n_nlogging_out_n_t_t_click_on_the_three_dots_n_t_t_press_quot_sign_out_quot">Adding A New Shoe \n\t\t- Press the plus button \n\t\t- Add the details of the shoe \n\t\t- Save to add it to the list \n\t\t- Cancel to cancel adding the shoe \n\nLogging out \n\t\t- Click on the three dots \n\t\t- Press \"Sign Out\"</string>
+    <string name="get_started">Get Started</string>
+    <string name="it_s_quite_empty_here">It\'s quite empty here..</string>
+    <string name="welcome">Welcome!</string>
+    <string name="next">Next</string>
+    <string name="we_re_happy_to_have_you_in_our_store_we_hope_you_have_a_great_time">We\'re happy to have you in our store! we hope you have a great time</string>
+    <string name="todo">TODO</string>
+    <string name="welcome_image">Welcome Image</string>
+</resources>

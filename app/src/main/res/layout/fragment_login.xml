@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".LoginFragment">
+
+    <!-- This LinearLayout holds the scrollview below (Mainly to set the background color to colorBackgrounds) -->
+    <LinearLayout
+        android:id="@+id/Primary_linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBackgrounds">
+
+        <!-- The scroll view is made to match the very wide screens, to be able to scroll down to press "Login" or "Register" -->
+        <ScrollView
+            style="@style/ScrollViewStyle">
+
+            <!-- This Linear Layout holds the login items -->
+            <LinearLayout
+                android:id="@+id/Login_linearlayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/welcome_text"
+                    android:text="@string/login"
+                    style="@style/LargeTestStyle" />
+
+                <EditText
+                    android:id="@+id/Email_editText"
+                    android:hint="@string/email"
+                    style="@style/LoginLabelStyle"
+                    android:inputType="textEmailAddress"
+                    android:layout_marginTop="@dimen/Margin_medium"
+                    android:autofillHints="" />
+
+                <EditText
+                    android:id="@+id/Password_EditText"
+                    style="@style/LoginLabelStyle"
+                    android:inputType="textPassword"
+                    android:hint="@string/password"
+                    android:autofillHints="" />
+
+                <Button
+                    android:id="@+id/signin_button"
+                    android:text="@string/sign_in"
+                    style="@style/ButtonStyle"
+                    android:layout_marginTop="@dimen/Margin_medium"/>
+
+                <Button
+                    android:id="@+id/register_button"
+                    style="@style/ButtonStyle"
+                    android:text="@string/register" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</layout>
