@@ -40,9 +40,8 @@ add a list of shoe and a cancel button to navigate back to shoe list fragment
 - This menu will appear only on the Shoe Listing screen and will return the user to the login screen
 
 ### Screenshots
-
-![Screenshot 1](screenshots/login.png)
-![Screenshot 2](screenshots/welcome.png)
-![Screenshot 3](screenshots/instructions.png)
-![Screenshot 4](screenshots/main.png)
-![Screenshot 5](screenshots/detail.png)
+<img src="screenshots/login.png" width="300" height="600">
+<img src="screenshots/welcome.png" width="300" height="600">
+<img src="screenshots/instructions.png" width="300" height="600">
+<img src="screenshots/main.png" width="300" height="600">
+<img src="screenshots/detail.png" width="300" height="600">
